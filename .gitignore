@@ -1,0 +1,54 @@
+# Dependências instaladas pelo npm ou yarn
+/node_modules
+/.wwebjs_auth
+.wwebjs_cache
+
+# Arquivos gerados dinamicamente
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Diretório de build
+/build
+
+# Arquivos de cache e arquivos temporários
+.cache/
+*.tmp
+
+# Arquivos de configuração locais
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de build do Visual Studio Code
+.vscode
+/.vscode
+
+# Arquivos e diretórios gerados pelo editor (exemplo: Visual Studio Code)
+/.idea
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de configuração de sistema (exemplo: Thumbs.db, .DS_Store)
+Thumbs.db
+.DS_Store
+
+# Arquivos de log
+logs
+*.log
+
+# Arquivos de compilação (exemplo: *.js e *.js.map de TypeScript)
+#*.js
+*.js.map
+
+# Arquivos de saída de teste
+coverage/
+
+.env
+tokens/*
+new_bot/node_modules/*
